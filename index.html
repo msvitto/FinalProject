@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="js/jquery-2.2.3.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h1 class="wrapper__title">List of my tasks</h1>
+        <div class="wrapper__block-input">
+            <input class="wrapper__input" type="text" placeholder="write a new task">
+            <select class="wrapper__category-select">
+                <option value="work">work</option>
+                <option value="study">study</option>
+                <option value="personal">personal</option>
+                <option value="other">other</option>
+            </select>
+            <button class="wrapper__btn btn">Add new task</button>
+        </div>
+        <div class="wrapper__block">
+            <div class="wrapper__block-usual">
+                <h2>my usual tasks</h2>
+                <ol class="usualList"></ol>
+            </div>
+            <div class="wrapper__block-important">
+                <h2>my important tasks </h2>
+                <ol class="importantList"></ol>
+            </div>
+            <div class="wrapper__block-done">
+                <h2>my done tasks </h2>
+                <ol class="doneList"></ol>
+            </div>
+        </div>
+        <div class="wrapper__block-btns">
+            <div class="wrapper__btns">
+                <button class="wrapper__btns-important btn">Add to important task</button>
+                <button class="wrapper__btns-done btn">Add to done task</button>
+                <button class="wrapper__btn-delete btn">Delete a task</button> 
+            </div> 
+            
+        </div>      
+    </div>
+    </select>
+    <script src="index.js"></script>
+</body>
+</html>
